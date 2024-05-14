@@ -1,0 +1,256 @@
+/* Navbar */
+.navbar {
+  background-color:#ff6a3d;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgb(83, 5, 5) 
+}
+
+/* Logout Button */
+.logout-btn {
+  background-color: #fff;
+  color:rgb(83, 5, 5);
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: rgb(83, 5, 5);
+  color: #fff;
+}
+
+
+
+/* Hero */
+.hero {
+  background-image: url('https://images.creativemarket.com/0.1.0/ps/12750191/3640/2410/m1/fpnw/wm1/seamless_food_banner-.jpg?1657688380&s=41ad17cd23179969d50b23fc5d2e0290'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+  background-size: cover;
+  background-position: center;
+  padding: 4rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero h2 {
+  margin: 0;
+  color:#ff6a3d;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero button {
+  background-color: #ff6a3d;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+  background-color:rgb(83, 5, 5);
+}
+
+
+
+/* Features */
+.features {
+  background-color: #ffedcc;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.features h2 {
+  margin: 0;
+  color: #333;
+}
+
+.features .feature {
+  margin-top: 2rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.features .feature:hover {
+  transform: translateY(-5px);
+}
+
+.features .feature h3 {
+  margin: 0;
+  color: #ff6a3d;
+}
+
+.features .feature p {
+  color: #666;
+}
+
+
+/* Menu */
+.menu {
+  background-color: #ffedcc;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.menu h2 {
+  margin: 0;
+  color: #333;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin-top: 2rem;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.menu li {
+  margin: 0 2rem;
+  background-color: #f6f6f6; 
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 300px; 
+}
+
+.menu li:hover {
+  transform: translateY(-5px);
+}
+
+.menu li img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.menu li h3 {
+  margin: 0;
+  color: #ff6a3d;
+  font-size: 1.5rem;
+}
+
+.menu li p {
+  color: #666;
+}
+
+/* Contact */
+.contact {
+  background-color:#fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  margin: 0;
+  color: #333;
+}
+
+.contact form {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: #ffedcc;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.contact input,
+.contact textarea {
+  width: calc(100% - 20px);
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  background-color:#ff6a3d;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: rgb(83, 5, 5);
+}
+
+/* Footer */
+.footer {
+  background-color:#ff6a3d;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
